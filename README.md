@@ -2,6 +2,8 @@
 
 Leetcode or Leetcode-like problems I'm solving for fun.
 
+[![Java CI with Gradle](https://github.com/matanlurey/LeetJava/actions/workflows/gradle.yml/badge.svg)](https://github.com/matanlurey/LeetJava/actions/workflows/gradle.yml)
+
 ```sh
 # Run tests
 ./gradlew test
