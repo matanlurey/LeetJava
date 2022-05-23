@@ -15,7 +15,7 @@ Leetcode or Leetcode-like problems I'm solving for fun.
 
 <https://leetcode.com/problems/roman-to-integer/>
 
-See `dev.lurey.java.leetcode.roman.RomanToInteger`:
+See [`dev.lurey.java.leetcode.roman.RomanToInteger`](src/main/java/dev/lurey/java/leetcode/roman/RomanToInteger.java):
 
 ```sh
 # Run in interactive mode (accept and convert from stdin).
