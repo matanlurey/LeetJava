@@ -1,0 +1,7 @@
+.idea/
+*.class
+.gradle
+/build
+
+*.jar
+!gradle-wrapper.jar

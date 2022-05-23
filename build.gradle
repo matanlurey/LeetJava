@@ -1,0 +1,24 @@
+plugins {
+    id 'application'
+}
+
+group 'dev.lurey.java.leetcode'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.2'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.2'
+}
+
+task romanToInteger(type: JavaExec) {
+    classpath = sourceSets.main.runtimeClasspath
+    mainClass.set("dev.lurey.java.leetcode.roman.RomanToInteger")
+    standardInput = System.in
+}
+
+test {
+    useJUnitPlatform()
+}
